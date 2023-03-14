@@ -20,25 +20,26 @@ export const Form = styled.form`
 
     input{
         background: var(--gray-900);
-        padding: .6rem;
+        padding-left:1rem ;
         border-radius: .3rem;
         border: 1px solid var(--gray-50);
         color: var(--gray-50);
         outline: none;
         transition: .3s;
-        
+        height: 48px;
+
         &:focus{
             border: 1px solid var(--pink-500);
         }
         
     }
     button{
-        padding: .6rem;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         border-radius: .3rem;
         background: var(--pink-500);
         outline: none;
         border: 0;
+        height: 48px;
         color: var(--gray-50);
         transition: .3s;
         cursor: pointer;
