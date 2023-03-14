@@ -1,5 +1,14 @@
+import { InputLogin } from '@/components/inputLogin'
+import {Form, Container} from './style'
+
 export default function Home() {
   return (
-    <h1>DashGo</h1>
+    <>
+      <Container>
+        <Form>
+          <InputLogin />
+        </Form>
+      </Container>
+    </>
   )
 }
