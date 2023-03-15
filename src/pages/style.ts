@@ -33,6 +33,7 @@ export const Form = styled.form`
         }
         
     }
+
     button{
         margin-top: 1rem;
         border-radius: .3rem;
@@ -48,4 +49,6 @@ export const Form = styled.form`
             filter: brightness(.9);
         }
     }
+
+    
 `
