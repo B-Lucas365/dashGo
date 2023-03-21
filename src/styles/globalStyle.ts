@@ -22,6 +22,8 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: Roboto;
+        font-size: 1rem;
+        font-weight: 400;
     }
 
     body{
