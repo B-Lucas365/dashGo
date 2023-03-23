@@ -53,5 +53,52 @@ export const SearchBox = styled.label`
         font-size: 1.5rem;
     }
 
+`
+
+export const Profile = styled.div`
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: auto;
+    padding: 0.25rem 1rem 0.25rem 0 ;
+    color: var(--gray-300);
+    
+    .notifications{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        margin-left: auto;
+        padding: 0.25rem 1rem 0.25rem 0 ;
+        color: var(--gray-300);
+        border-right: .25rem solid var(--gray-700);
+        
+        .notification{
+            font-size: 1.5rem;
+        }
+    
+        .userAdd{
+            font-size: 1.5rem;
+        }
+    }
+
+`
+
+export const User = styled.div`
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    text-align: right;
+
+    .email{
+        color: var(--gray-300);
+        font-size: small;
+    }
+
+    .img-profile{
+        clip-path: circle();
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: .5rem;
+    }
 
 `
