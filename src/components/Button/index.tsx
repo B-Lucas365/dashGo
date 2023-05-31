@@ -1,6 +1,9 @@
+import React, {ReactNode} from 'react'
+
 interface ButtonProps {
     type: "button" | "submit" | "reset" 
-    value: string
+    value: string,
+    children?: ReactNode
 }
 
 export const Button = ({type, value}: ButtonProps) => {
