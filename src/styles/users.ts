@@ -12,7 +12,7 @@ export const Content = styled.div`
     width: 100%;
     max-width: 1480px;
     padding: 0 1.5rem;
-
+    
 `
 
 export const UserCreate = styled.div`

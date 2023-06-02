@@ -1,18 +1,19 @@
 import { Header } from "../../components/Header";
 import { Sidebar } from "../../components/Sidebar";
-import { Table } from "../../components/Table";
+import { TableComponent } from "../../components/Table";
+
+import { TableMUI } from "../../components/TableMUI";
 import { Container, Content } from "../../styles/users";
 
-
-export default function UserList(){
+export default function UserList() {
   return (
     <Container>
       <Header />
 
       <Content>
         <Sidebar />
-        <Table />
+        <TableComponent />
       </Content>
     </Container>
   );
-};
+}
