@@ -19,17 +19,19 @@ export const Form = styled.form`
     gap: .5rem;
 
     input{
-        background: var(--gray-900);
+        background-color: #fff;
+        color: var(--gray-900);
         padding-left:1rem ;
         border-radius: .3rem;
         border: 1px solid var(--gray-50);
-        color: var(--gray-50);
         outline: none;
         transition: .3s;
         height: 48px;
 
         &:focus{
             border: 1px solid var(--pink-500);
+            color: var(--gray-50);
+            background-color: var(--gray-900);
         }
         
     }

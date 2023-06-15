@@ -1,4 +1,5 @@
-import { Container, Button } from "./style";
+import { PaginationButton } from "./PaginationButton";
+import { Container } from "./style";
 
 export const Pagination = () => {
   return (
@@ -7,10 +8,11 @@ export const Pagination = () => {
         <strong>0</strong> - <strong>10</strong> de <strong>100</strong>
       </div>
       <div className="controls">
-        <Button disabled>1</Button>
-        <Button className="more-pagination">2</Button>
-        <Button className="more-pagination">3</Button>
-        <Button className="more-pagination">4</Button>
+        <PaginationButton number={1} isCurrent/>
+        <PaginationButton number={2}/>
+        <PaginationButton number={3}/>
+        <PaginationButton number={4}/>
+        <PaginationButton number={5}/>
       </div>
     </Container>
   );

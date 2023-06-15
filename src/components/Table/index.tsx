@@ -21,16 +21,8 @@ export const TableComponent = () => {
         <thead>
           <tr>
             <th className="">
-              <Checkbox
-                sx={{
-                  color: "#D53F8C ",
-                  "&.Mui-checked": {
-                    color: "#ED64A6",
-                  },
-                }}
-              />
+              <Checkbox sx={{color: "#D53F8C ", "&.Mui-checked": {color: "#ED64A6"}}}/>
             </th>
-
             <th>Usuário</th>
             <th>Data de cadastro</th>
           </tr>
@@ -39,23 +31,14 @@ export const TableComponent = () => {
         <tbody>
           <tr>
             <td className="">
-              <Checkbox
-                sx={{
-                  color: "#D53F8C ",
-                  "&.Mui-checked": {
-                    color: "#ED64A6",
-                  },
-                }}
-              />
+              <Checkbox sx={{color: "#D53F8C ", "&.Mui-checked": {color: "#ED64A6"}}}/>
             </td>
-
             <td>
               <div>
                 <p className="name">Lucas Renan</p>
                 <p className="email">lucas.silva@uol.com</p>
               </div>
             </td>
-
             <td>04 de junho, 2023</td>
           </tr>
         </tbody>

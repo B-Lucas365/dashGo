@@ -1,8 +1,6 @@
 import { Button } from '@/components/Button'
 import {Input} from '../components/Input'
 import {Form, Container} from './style'
-import { CheckboxComponent } from '../components/Checkbox'
-
 
 export default function Home() {
   return (
@@ -13,8 +11,6 @@ export default function Home() {
           <Input name="password" type="password" placeholder="Digite sua senha"/>
           <Button type="submit" value='Entrar'/>
         </Form>
-
-        <CheckboxComponent />
       </Container>
     </>
   )
